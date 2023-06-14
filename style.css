@@ -1,0 +1,30 @@
+.image {
+    width: 300px;
+    padding-top: 50px;
+}
+
+.wrap-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+.wrapper {
+    display: grid;
+    grid-template-columns: 350px 350px 350px;
+    grid-gap: 20px;
+}
+
+.box {
+    max-width: 300px;
+    height: auto;
+    background-color: rgba(0,0,0,0.5);
+}
+
+.grid-image {
+    object-fit: cover;
+    max-width: 300px;
+    height: auto;
+}
